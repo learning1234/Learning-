@@ -1,0 +1,21 @@
+declare
+
+   books  integer;
+
+begin
+
+   books := 20;
+
+   if books = 8820
+
+   then
+
+       dbms_output.put_line('they are equal');
+
+   else
+
+       dbms_output.put_line('***$$$### they are not equal');
+
+   end if;
+
+end;
